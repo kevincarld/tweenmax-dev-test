@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    
+</head>
+
+<body class="mrec">
+    <br/>
+<div class="tae">
+    <div class="container">
+        <!--             LOADER CIRCLE-->
+            <div class="loader">
+                <img id="loadersvg" src="loader.svg" alt="" />
+            </div> 
+        
+        <div class="banner">
+
+
+            <!-- ------- FRAME 01 ------- -->
+            <div class="copy" id="f1-copy">
+                <h1>Over 150 destinations in the USA</h1>
+            </div>
+
+            <!-- ------- FRAME 02 ------- -->
+            <div class="copy" id="f2-copy">
+                <h1>Two airlines One World class</h1>
+            </div>
+
+            <!-- ------- FRAME 03 ------- -->
+             <div id="qantas-logo-container">
+                <img id="qantas-logo-mono" src="logo-qantas-mono.svg" />
+                <img id="qantas-logo-colour" src="logo-qantas-colour.svg" />
+            </div>
+            <div id="logo-divider"></div>
+            <img id="aa-logo" src="logo_aa.svg" /> 
+
+
+            <!-- ------- FRAME 04 ------- -->
+             <div class="copy" id="f3-copy">
+
+                <span id="from">Fly from Sydney to</span>
+                <span id="destination">Dallas Fort Worth</span>
+                
+                <div id="price-lockup">
+                    <span id="price-left-copy">from</span>
+                    <span id="price">$1,757<sup>*</sup></span>
+                    <span id="price-right-copy">Economy <sub>return</sub></span>
+                </div>
+
+            </div> 
+
+            <!-- USE THIS IF THERE IS A "CLICK FOR EXTENDED TERMS" BUTTON -->
+             <div class="terms-wrapper">
+                <span class="terms">
+                    <sup>*</sup>Prices based on payment at qantas.com by Bpay or POLi.
+                    Sale ends 23:59(AEST) 31 July 2016, unless sold out 
+                    prior. Selected travel dates, days and conditions apply.
+                </span>
+            </div> 
+
+            <!-- ------- BASE ELEMENTS -------- -->
+
+            <div class="shapes">
+                <img id="blue-shape" src="shape-blue.svg" />
+                <img id="red-shape" src="shape-red.svg" />
+                <img id="mask-shape" src="shape-mask.svg" />
+                <img id="white-shape" src="shape-white.svg" />
+            </div>
+
+
+            <!-- <img id="red-shape-end-frame" src="shape-red-end-frame.svg" /> -->
+            <img id="red-shape-end-frame2" src="shape-red-end-frame2.svg" />
+
+            <div id="video">
+                <video id="video-el" width="300" height="250" muted>
+                    <source src="https://s3-ap-southeast-2.amazonaws.com/qant0056/300x250_W.mp4" type="video/mp4">
+                    <source src="https://s3-ap-southeast-2.amazonaws.com/qant0056/300x250_W.webm" type="video/webm">
+                </video>
+            </div>
+
+            <div class="bg-image">
+                <img class="bg-image-01" src="" alt="" />
+            </div>
+
+<!--              STANDARD CLICKTAG-->
+            <a href="javascript:exit()">
+                <div class="button"><span id="cta-text">See deals</span></div>
+            </a>
+
+
+<!--
+            <div class="overlay">
+            <div class="overlay-close">
+                <img src="close.gif" alt="" />
+            </div>
+            <h6>Important information</h6>
+            <div class="overlay-body">
+                <span class="terms-txt"></span>
+            </div>
+            </div> 
+-->
+        </div> <!-- end banner -->
+        
+          
+    </div> <!-- end container-->
+    
+   
+   <div class="plug">
+            "hire me!"
+        </div>
+       <div class="birdie">
+           <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 1486 905" xml:space="preserve">
+                <g id="bird" clip-path="url(#bird-mask-clip-path)">
+                    <g id="Bird">
+                      <path id="tail" d="M553.91 531.64c0 0-31.26 27.68-26 31.45 5.26 3.77 26.83-26.07 26.83-26.07s-21.64 30.53-13.71 36.02c7.92 5.49 16.82-34.19 16.82-34.19s-8.1 39.67-1.92 40.93c6.18 1.26 4.57-42.08 4.57-42.08s-0.23 36.25 6.4 36.6c6.63 0.34-2.86-37.74-2.86-37.74s8.25 32.82 13.16 32.02c4.91-0.8-11.11-34.19-11.11-34.19s13.74 29.39 18.88 28.13c5.15-1.26-17.84-32.02-17.84-32.02L553.91 531.64z" style="display:none;fill:#F26E3F"/>
+                      <path id="body" d="M573.06 477.12h-30.63c0 0-14.13 18.05-6.25 41.78 0 0 7.57 15.3 22.2 18.23 8.64 1.73 19.93-11.14 23.23-19.66C581.61 517.46 589.05 492.94 573.06 477.12z" fill="#D38B29"/>
+                      <circle id="head" cx="557.68" cy="471.08" r="17.42" fill="#F4AA3F"/>
+                      <rect id="rightEyeClose" x="546.44" y="469.13" width="6.76" height="1.41" fill="#231F20"/>
+                      <g id="rightEye">
+                        <circle cx="549.84" cy="470.02" r="3.4" fill="#FFF"/>
+                        <circle cx="549.84" cy="470.02" r="1.78"/>
+                      </g>
+                      <rect id="leftEyeClose" x="562.69" y="469.13" width="6.76" height="1.41" fill="#231F20"/>
+                      <g id="leftEye">
+                        <circle cx="566.08" cy="470.02" r="3.4" fill="#FFF"/>
+                        <circle cx="566.08" cy="470.02" r="1.78"/>
+                      </g>
+                      <polygon id="beak" points="553.91 480.63 562.85 480.63 558.38 493.42 " fill="#FFF"/>
+                      <polygon id="beakshadow" points="558.38 480.63 558.38 493.42 562.85 480.63 " fill="#C1E3D9"/>
+                      <path id="leftwing" d="M570.05 483.33c0 0-3.42 4.57-2.18 12.36 1.24 7.8 7.13 12.46 8.37 8.65 0 0-1.62 4.46 1.52 7.98 3.14 3.52 3.42-2.95 3.42-2.95s0.18 6.13 0.95 6.01c0.77-0.11 6.19-5.92 4.28-16.65 -1.9-10.74-12.67-20.93-12.67-20.93S572.29 481.43 570.05 483.33z" fill="#D65A32"/>
+                      <path id="rightwing" d="M545.39 483.33c0 0 3.42 4.57 2.18 12.36 -1.24 7.8-7.13 12.46-8.37 8.65 0 0 2.9 3.42-0.23 6.94 -3.14 3.52-4.71-1.9-4.71-1.9s1.58 5.77 0.81 5.66c-0.76-0.11-6.65-6.32-4.75-17.07 1.9-10.74 11.38-20.16 11.38-20.16S543.16 481.43 545.39 483.33z" fill="#D65A32"/>
+                      <path id="rightfoot" d="M544.88 521.68c0 0-3.13 0.7-2.96 3.75 0.17 3.05 4.61 2 4.65 0 0 0-1.26 1.93 0.83 3.01 2.09 1.08 3.9-0.33 3.6-1.85 0 0-0.47 2.75 1.53 2.93 2 0.18 2.96-1.48 1.66-4.79C552.89 521.42 546.2 521.09 544.88 521.68z" fill="#F5E1BE"/>
+                      <path id="leftfoot" d="M572.17 522c0 0 3.14 0.7 2.96 3.75 -0.17 3.05-4.61 2.01-4.65 0 0 0 1.26 1.93-0.83 3.01 -2.09 1.08-3.9-0.33-3.6-1.85 0 0 0.47 2.75-1.53 2.93 -2 0.18-2.96-1.48-1.65-4.79C564.16 521.74 570.84 521.42 572.17 522z" fill="#F5E1BE"/>
+                      <g id="BirdHat">
+                        <polygon id="hatbowl" points="569.39 452.5 540.17 460.39 537.19 449.32 552.07 447.38 566.4 441.44 " style="fill:#754C29;stroke:#3C2415"/>
+                        <rect id="hatbrim" x="532.43" y="456.02" transform="matrix(0.9655 -0.2606 0.2606 0.9655 -100.5479 160.641)" width="46.38" height="7.08" class="s0"/>
+                        <rect id="hatbrimshadow" x="532.9" y="459.5" transform="matrix(0.9655 -0.2605 0.2605 0.9655 -100.9739 160.8134)" width="46.38" height="3.54" style="fill:#BC5228;stroke:#CE5A2C"/>
+                      </g>
+                    </g>
+                </g>
+            </svg>
+       </div>  
+</div>
+    <script src="mobile-detect.min.js"></script>
+<!--    <script src="banner.min.js"></script>-->
+<script src="bannerOrig.js"></script>
+</body>
+
+</html>
